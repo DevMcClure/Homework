@@ -24,7 +24,8 @@ united_kingdom = [
 
 # 1. Change the capital of Wales from `"Swansea"` to `"Cardiff"`.
 
-united_kingdom = (1())
+united_kingdom[1]["capital"] = "Cardiff"
+print (united_kingdom)
 
 
 # 2. Create a dictionary for Northern Ireland and add it to the `united_kingdom` list (The capital is Belfast, and the population is 1,811,000).
